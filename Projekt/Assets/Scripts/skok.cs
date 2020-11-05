@@ -18,7 +18,10 @@ public class skok : MonoBehaviour
         // trzeba jakos to zablokowac bo narazie postac nam lata po calej mapie jak trzyma spacje xD
         if(Input.GetKey(KeyCode.Space))
         {
-            rb.AddForce(Vector3.up * silaSkoku);
+            if (rb.velocity.y == 0)
+            {
+                rb.AddForce(Vector3.up * silaSkoku, ForceMode.Impulse);
+            }
         }
     }
 }
