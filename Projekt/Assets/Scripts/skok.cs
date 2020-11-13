@@ -6,7 +6,7 @@ public class skok : MonoBehaviour
 {
     public float silaSkoku = 5.0f;
     Rigidbody rb;
-
+    private bool IsGrounded;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -15,13 +15,19 @@ public class skok : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // trzeba jakos to zablokowac bo narazie postac nam lata po calej mapie jak trzyma spacje xD
-        if(Input.GetKey(KeyCode.Space))
+        // kulka musi byc na ziemi
+        if(Physics.Raycast(transform.position,-Vector3.up,0.501f))
         {
-            if (rb.velocity.y == 0)
-            {
-                rb.AddForce(Vector3.up * silaSkoku, ForceMode.Impulse);
-            }
+            IsGrounded = true;
+        }
+        else
+        {
+            IsGrounded = false;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space)&& IsGrounded)
+        {
+            rb.AddForce(0f,silaSkoku,0f);
         }
     }
 }

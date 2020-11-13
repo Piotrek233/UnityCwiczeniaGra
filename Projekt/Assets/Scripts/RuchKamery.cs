@@ -7,10 +7,6 @@ public class RuchKamery : MonoBehaviour
     // Start is called before the first frame update
     public GameObject sledzGracza;
     public Vector3 pozycjaKamery;
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

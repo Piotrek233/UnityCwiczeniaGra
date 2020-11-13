@@ -8,7 +8,7 @@ public class moneta : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            FindObjectOfType<Punkty>().wynik += 1;
+            FindObjectOfType<Punkty>().wynik +=1;
             Destroy(gameObject);
         }
     }

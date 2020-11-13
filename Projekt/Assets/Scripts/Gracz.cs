@@ -6,7 +6,7 @@ public class Gracz : MonoBehaviour
 {
     // Start is called before the first frame update
     Rigidbody rb;
-    public float speed = 5f;
+    public float speed = 2.0f;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
