@@ -7,9 +7,8 @@ public class TekstPunkty : MonoBehaviour
 {
 
     public Text punktytekst;
-    // Update is called once per frame
     void Update()
     {
-        punktytekst.text = "Punkty: " + FindObjectOfType<Punkty>().wynik.ToString();
+        punktytekst.text = "  Kryształy: " + FindObjectOfType<Punkty>().wynik.ToString() + "/6";
     }
 }

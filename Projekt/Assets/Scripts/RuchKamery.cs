@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class RuchKamery : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject sledzGracza;
-    public Vector3 pozycjaKamery;
-
-    // Update is called once per frame
+    public Transform gracz;
     void Update()
     {
-        transform.position = sledzGracza.transform.position + pozycjaKamery;
+        Vector3 vector = new Vector3(0, 10f, -10f); // vector o ktory przesuniemy kamere od gracza
+
+        Vector3 nowaPozycjaKamery = gracz.position + vector;
+
+        // płynne przechodzenie kamery
+        transform.position = Vector3.Lerp(transform.position, nowaPozycjaKamery,Time.deltaTime*2f); // funkcja lerp przyjmuje 3 parametry (vector a polozenie początkowe  vector b położenie końcowe  wartosc 
+        transform.LookAt(gracz);
     }
 }
