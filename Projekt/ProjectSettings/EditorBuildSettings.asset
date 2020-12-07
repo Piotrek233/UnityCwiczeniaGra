@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/poziom5.unity
     guid: c2dc97d081a948b4fa1bdfad48acf576
+  - enabled: 1
+    path: Assets/Scenes/poziom6.unity
+    guid: 4c4c91bac49fb7645a929df723043296
   m_configObjects: {}
