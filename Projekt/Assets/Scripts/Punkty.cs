@@ -5,4 +5,5 @@ using UnityEngine;
 public class Punkty : MonoBehaviour
 {
     public int wynik;
+    public static int smierci;
 }
