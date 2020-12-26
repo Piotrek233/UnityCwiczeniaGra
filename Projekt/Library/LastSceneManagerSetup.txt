@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/poziom9.unity
+- path: Assets/Scenes/WyborPoziomu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
