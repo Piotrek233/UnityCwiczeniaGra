@@ -68,10 +68,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 534, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 141
+  controlID: 129
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProBuilderEditor
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -117,14 +117,14 @@ MonoBehaviour:
     y: 0
     width: 230
     height: 562
-  m_MinSize: {x: 56, y: 57}
+  m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 1502
     height: 947
-  m_MinSize: {x: 258, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 75
+  controlID: 47
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,10 +266,10 @@ MonoBehaviour:
     y: 0
     width: 1502
     height: 562
-  m_MinSize: {x: 258, y: 221}
+  m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 76
+  controlID: 48
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -411,12 +411,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 635
-    width: 1533
+    width: 1501
     height: 364
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -30370
+  m_LastSelectedObjectID: 36024
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -482,20 +482,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Studia\IV rok\UnityCwiczeniaGra\Projekt
+  m_LastProjectPath: C:\Users\PC\Documents\GitHub\UnityCwiczeniaGra\Projekt
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e380000
-    m_LastClickedID: 14398
-    m_ExpandedIDs: 000000003638000000ca9a3b
+    m_SelectedIDs: d83c0000
+    m_LastClickedID: 15576
+    m_ExpandedIDs: 000000003a3c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,7 +523,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000036380000
+    m_ExpandedIDs: 000000003a3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -640,15 +640,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 234
+    width: 229
     height: 541
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d451ffff
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2a8dffff468fffff70cbffff60cdffff64fbffff
+      m_ExpandedIDs: a0a1ffff6aa3ffffcca5ffffeaa9ffff2aacffffacafffff86b2ffffe6b4ffff62b6ffff92b7fffffab8ffff40baffffa6bbffff0abdfffff0beffffdcc6ffff0ac8ffff7cc8ffff68c9ffff28caffffe8caffff5acbffff0accffff38cdffff16cfffff98d2ffffdad4ffff5cd8ffff34daffff20dbffffe0dbffffccdcffff8cddffff04dfffff54f3ffffec8c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -708,9 +708,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 103.16111, y: -51.676872, z: 113.27144}
+    m_Target: {x: 83.20534, y: -71.15698, z: 100.5505}
     speed: 2
-    m_Value: {x: 103.16111, y: -51.676872, z: 113.27144}
+    m_Value: {x: 83.20534, y: -71.15698, z: 100.5505}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 2
@@ -756,13 +756,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.19266231, y: 0.24931078, z: -0.048607565, w: 0.94895077}
+    m_Target: {x: 0.23272789, y: 0.31630367, z: -0.078296445, w: 0.9175005}
     speed: 2
-    m_Value: {x: 0.1923095, y: 0.25188652, z: -0.04913267, w: 0.9471834}
+    m_Value: {x: 0.23247835, y: 0.31596452, z: -0.07821249, w: 0.9165167}
   m_Size:
-    m_Target: 106.98092
+    m_Target: 83.92994
     speed: 2
-    m_Value: 102.374084
+    m_Value: 83.92994
   m_Ortho:
     m_Target: 0
     speed: 2
