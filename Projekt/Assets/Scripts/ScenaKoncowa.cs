@@ -58,7 +58,7 @@ public class ScenaKoncowa : MonoBehaviour
 
     public void RestartButton()
     {
-        SceneManager.LoadScene("poziom10");
+        SceneManager.LoadScene("poziom1");
     }
 
     public void MenuButton()
