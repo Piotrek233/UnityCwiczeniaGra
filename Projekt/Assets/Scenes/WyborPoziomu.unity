@@ -8273,6 +8273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gracz
       objectReference: {fileID: 0}
+    - target: {fileID: 5899725515211515653, guid: 3f295a562c216b74f8e7b5652264fdd4,
+        type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5899725515211515707, guid: 3f295a562c216b74f8e7b5652264fdd4,
         type: 3}
       propertyPath: m_LocalPosition.x
